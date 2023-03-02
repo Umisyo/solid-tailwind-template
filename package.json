@@ -39,7 +39,7 @@
     "*.{js,jsx,ts,tsx}": [
       "pnpm lint:fix"
     ],
-    "*.{css,json}": [
+    "*.{js,jsx,ts,tsx,css,md,json}": [
       "pnpm format:fix"
     ]
   },
