@@ -1,0 +1,21 @@
+##########################################################################
+#  Prettierの設定ファイル                                                #
+#  (https: //prettier.io/docs/en/options.html)                            #
+##########################################################################
+
+# 折り返す行の長さ (.editorconfig:max_line_lengthでoverride)
+# printWidth: 80
+# インデントごとのスペース数 (.editorconfig:indent_sizeでoverride)
+# tabWidth: 2
+# スペースの代わりにタブを利用するか (.editorconfig:indent_styleでoverride)
+# useTabs: false
+# 末尾セミコロンの有無
+semi: false
+# ダブルクォートの代わりにシングルクォート
+singleQuote: true
+# 末尾コンマをなくす (https: //prettier.io/docs/en/options.html#trailing-commas)
+trailingComma: none
+# オブジェクトリテラルの角かっこの間のスペース
+bracketSpacing: true
+# アロー関数の引数（avoid: 可能な限り括弧を省く)
+arrowParens: avoid

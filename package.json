@@ -1,0 +1,49 @@
+{
+  "name": "solid-misskey-client",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
+    "format:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
+    "prepare": "pnpx husky install"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/eslint": "^8.21.1",
+    "@types/node": "^18.11.18",
+    "@types/prettier": "^2.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "esbuild": "^0.14.54",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-solid": "^0.10.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "solid-start-node": "^0.2.19",
+    "typescript": "^4.9.4",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.2",
+    "@solidjs/router": "^0.7.0",
+    "solid-js": "^1.6.11",
+    "solid-start": "^0.2.22",
+    "undici": "^5.15.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "pnpm lint:fix"
+    ],
+    "*.{css,json}": [
+      "pnpm format:fix"
+    ]
+  },
+  "engines": {
+    "node": ">=16.8"
+  }
+}
