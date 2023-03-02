@@ -1,5 +1,5 @@
 {
-  "name": "solid-misskey-client",
+  "name": "solid-template",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
