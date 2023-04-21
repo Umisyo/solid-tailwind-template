@@ -16,7 +16,7 @@ To get started with this template, follow these steps:
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/Umisyo/solid-template your-project-name
+   git clone https://github.com/Umisyo/solid-tailwind-template your-project-name
    cd your-project-name
    ```
    
