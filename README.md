@@ -1,30 +1,73 @@
-# SolidStart
+# Solid Start with ESLint, Prettier, and Tailwind Template Repository
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+This repository contains a pre-configured template for Solid projects that includes ESLint, Prettier, and Tailwind CSS. This setup will help you streamline your development process by providing a standardized code style, enforcing best practices, and giving you access to a powerful utility-first CSS framework.
 
-## Creating a project
+## Features
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+- Solid JS framework for building reactive and efficient web applications
+- ESLint for consistent JavaScript code style and best practices
+- Prettier for automatic code formatting
+- Tailwind CSS, a utility-first CSS framework for rapid UI development
 
-# create a new project in my-app
-npm init solid@latest my-app
+## Getting Started
+
+To get started with this template, follow these steps:
+
+1. **Clone the repository**
+
+   ```
+   git clone https://github.com/Umisyo/solid-template your-project-name
+   cd your-project-name
+   ```
+
+2. **Install dependencies**
+
+   ```
+   pnpm install
+   ```
+
+3. **Start the development server**
+
+   ```
+   pnpm dev
+   ```
+
+   The server will start at [http://localhost:3000](http://localhost:3000), and your project will automatically reload on file changes.
+
+## Usage
+
+### ESLint
+
+ESLint is configured to enforce best practices and consistent code style. You can check your code for any issues by running:
+
+```
+pnpm lint
 ```
 
-## Developing
+If you want to automatically fix some issues, you can run:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+pnpm lint:fix
 ```
 
-## Building
+### Prettier
 
-Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
+Prettier is configured to format your code automatically. You can run it manually by executing:
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`.
+```
+pnpm format
+```
+
+We recommend configuring your text editor or IDE to automatically format your code on save.
+
+### Tailwind CSS
+
+Tailwind CSS is included in the project and can be customized by modifying the `tailwind.config.js` file. You can use Tailwind's utility classes in your components to quickly style your application.
+
+## Contributing
+
+If you find any issues with this template or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
