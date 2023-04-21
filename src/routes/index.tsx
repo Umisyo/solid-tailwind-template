@@ -1,5 +1,5 @@
 import { Title } from 'solid-start'
-import Counter from '~/routes/component/features/Counter'
+import Counter from '~/component/features/Counter'
 
 export default function Home() {
   return (
