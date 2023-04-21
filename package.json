@@ -16,6 +16,7 @@
     "@types/prettier": "^2.7.2",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
+    "autoprefixer": "^10.4.14",
     "esbuild": "^0.14.54",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
@@ -25,6 +26,7 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "solid-start-node": "^0.2.19",
+    "tailwindcss": "^3.3.1",
     "typescript": "^4.9.4",
     "vite": "^4.1.4"
   },
