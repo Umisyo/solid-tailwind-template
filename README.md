@@ -19,6 +19,12 @@ To get started with this template, follow these steps:
    git clone https://github.com/Umisyo/solid-template your-project-name
    cd your-project-name
    ```
+   
+   or
+   
+   click the **use this template button**
+   
+   ![image](https://user-images.githubusercontent.com/44742896/233573523-178df93c-d921-4de7-90f7-d8c84b6669c0.png)
 
 2. **Install dependencies**
 
