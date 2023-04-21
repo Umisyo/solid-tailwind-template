@@ -1,6 +1,6 @@
 # Solid Start with ESLint, Prettier, and Tailwind Template Repository
 
-This repository contains a pre-configured template for Solid projects that includes ESLint, Prettier, and Tailwind CSS. This setup will help you streamline your development process by providing a standardized code style, enforcing best practices, and giving you access to a powerful utility-first CSS framework.
+This repository contains a pre-configured template for Solid projects that includes ESLint, Prettier, husky, and Tailwind CSS. This setup will help you streamline your development process by providing a standardized code style, enforcing best practices, and giving you access to a powerful utility-first CSS framework.
 
 ## Features
 
@@ -25,8 +25,14 @@ To get started with this template, follow these steps:
    ```
    pnpm install
    ```
+   
+3. **Prepare husky**
 
-3. **Start the development server**
+   ```
+   pnpm prepare
+   ```
+
+4. **Start the development server**
 
    ```
    pnpm dev
